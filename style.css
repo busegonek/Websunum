@@ -1,0 +1,29 @@
+body{ }
+.container
+    {
+        display: grid;
+        grid-template-columns: repeat(4,100px);
+        grid-gap: 10px;
+    }
+    .box{
+
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+        transition: background-color 0.3s,transform 0s;
+    }
+    .box:hover
+    {
+        background-color: chartreuse;
+        transform: scale(1.1);
+    }
+
+#box-1{width: 100px;
+    height: 100px;
+    background-color: rgb(29, 147, 141);
+    transition: background-color 0.3s,transform 0s;}
+#box-1:hover
+    {
+        background-color: rgb(235, 223, 61);
+        transform: scale(1.1);
+    }
